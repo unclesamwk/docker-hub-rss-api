@@ -15,6 +15,11 @@ docker build -t docker-hub-rss-api .
 docker run -it \
   -p 8000:8000 \
    docker-hub-rss-api
+
+INFO:     Started server process [7]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
 ```
 
 ## usage
